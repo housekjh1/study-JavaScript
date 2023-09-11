@@ -1,5 +1,5 @@
 const show = (cd) => {
-    let url2 = "http://www.kobis.or.kr/kobisopenapi/webservice/rest/movie/searchMovieInfo.json";
+    let url2 = "https://www.kobis.or.kr/kobisopenapi/webservice/rest/movie/searchMovieInfo.json";
     let apikey2 = "f5eef3421c602c6cb7ea224104795888";
     url2 = url2 + `?key=${apikey2}&movieCd=${cd}`;
 
